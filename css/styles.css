@@ -99,6 +99,10 @@ body {
 .hero {
   background-color: var(--secondary-background-color);
   color: var(--primary-white-color);
+  text-align: center;
+}
+
+.hero .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -118,7 +122,6 @@ body {
   letter-spacing: 0.06em;
 }
 .feature .feature-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -127,14 +130,12 @@ body {
 
 .feature .description {
   color: var(--description-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -160,7 +161,6 @@ body {
 
 .team .description {
   color: var(--description-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -180,7 +180,6 @@ footer .logo-second {
   color: var(--primary-white-color);
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -200,7 +199,6 @@ footer .logo-second {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71x;
   letter-spacing: 0.03em;
@@ -241,7 +239,6 @@ footer .logo-second {
 
 .works .works-title {
   color: var(--text-main-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -249,7 +246,6 @@ footer .logo-second {
 
 .works .description {
   color: var(--description-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
