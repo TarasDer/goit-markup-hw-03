@@ -17,14 +17,40 @@
   --secondary-background-color: #2f303a;
   --last-section-color: #f5f4fa;
 }
+/* Reset */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #e0d8d8;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--text-main-color);
   font-family: Roboto, Verdana, sans-serif;
-}
-
-.list {
-  list-style: none;
 }
 
 .visually-hidden {
@@ -39,10 +65,22 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+header .container {
+  width: 1200px;
+  /* margin: auto; */
+  border-bottom: #ececec solid 1px;
+  display: flex;
+  align-items: center;
+}
 /* -------------HEADER--------------- */
 /* ---------logo-------- */
+.header-logo {
+  margin-right: 93px;
+}
+
 .logo-first {
-  color: var(--accent-color);
+  color: titlevar(--accent-color);
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -57,7 +95,17 @@ body {
 }
 
 /* ---------Site nav-------- */
+.site-nav {
+  display: flex;
+  gap: 50px;
+  margin-right: 344px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--text-main-color);
   text-decoration: none;
   font-weight: 500;
@@ -75,6 +123,10 @@ body {
   color: var(--accent-color);
 }
 
+.email {
+  display: block;
+  margin-right: 50px;
+}
 .email,
 .tel {
   text-decoration: none;
@@ -100,15 +152,22 @@ body {
   background-color: var(--secondary-background-color);
   color: var(--primary-white-color);
   text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.hero .container {
+  margin: auto;
 }
 
 .hero .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0 auto;
+  width: 696px;
 }
 
 .hero .button {
@@ -120,6 +179,10 @@ body {
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 32px;
+  margin-top: 30px;
 }
 .feature .feature-title {
   font-size: 14px;
