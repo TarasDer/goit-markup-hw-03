@@ -80,7 +80,7 @@ header .container {
 }
 
 .logo-first {
-  color: titlevar(--accent-color);
+  color: var(--accent-color);
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
