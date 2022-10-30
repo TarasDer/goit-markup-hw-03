@@ -392,6 +392,9 @@ footer .logo-second {
 
 .typeofworks{
   padding: 20px 24px;
+  border-left:#EEEEEE solid 1px;
+  border-right:#EEEEEE solid 1px;
+  border-bottom:#EEEEEE solid 1px;
 }
 
 .works .works-title {
