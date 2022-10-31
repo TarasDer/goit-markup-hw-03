@@ -67,14 +67,19 @@ body {
   margin: -1px;
 }
 
+
+/* -------------HEADER--------------- */
+/* ---------logo-------- */
+header{
+  border-bottom: #ececec solid 1px;
+}
+
 header .container {
   width: 1200px;
-  border-bottom: #ececec solid 1px;
   display: flex;
   align-items: center;
 }
-/* -------------HEADER--------------- */
-/* ---------logo-------- */
+
 .header-logo {
   margin-right: 93px;
 }
@@ -86,7 +91,7 @@ header .container {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: calc(36/26);
   letter-spacing: 0.03em;
 }
 
@@ -186,7 +191,7 @@ header .container {
 }
 
 .feauter-section{
-  padding-top: 72px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -223,10 +228,10 @@ header .container {
 }
 
 .examples-section{
-  padding-bottom: 59px;
+  padding-bottom: 94px;
 }
 
-.examples-section-title{margin-bottom: 53px;
+.examples-section-title{margin-bottom: 50px;
 
 }
 
@@ -244,8 +249,8 @@ header .container {
 
 .team {
   background-color: var(--last-section-color);
-  padding-top: 90px;
-  padding-bottom: 98px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-section-title{
@@ -279,11 +284,8 @@ header .container {
 }
 
 /* ---------Footer-------- */
-footer {
+.footer {
   background-color: var(--secondary-background-color);
-}
-
-footer .container{
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -334,7 +336,7 @@ footer .logo-second {
 
 /* -----------------------Portfolio---------------------- */
 
-.portfolio{
+.portfolio-section{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -343,7 +345,7 @@ footer .logo-second {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .button-active {
@@ -378,7 +380,6 @@ footer .logo-second {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
 }
 
 .works .card {
